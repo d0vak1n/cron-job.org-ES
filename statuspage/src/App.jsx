@@ -16,6 +16,7 @@ import translationDE from './locales/de/translation.json';
 import translationIT from './locales/it/translation.json';
 import translationRU from './locales/ru/translation.json';
 import translationZhTW from './locales/zh_TW/translation.json';
+import translationES from './locales/es/translation.json';
 
 import 'moment/locale/de';
 import 'moment/locale/it';
@@ -38,6 +39,9 @@ const LANGUAGE_RESOURCES = {
   },
   zh_TW:{
     translation: translationZhTW
+  },
+  es:{
+    translation: translationES
   }
 };
 

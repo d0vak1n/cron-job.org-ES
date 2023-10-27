@@ -19,6 +19,7 @@ import translationIT from './locales/it/translation.json';
 import translationRU from './locales/ru/translation.json';
 import translationFR from './locales/fr/translation.json';
 import translationZhTW from './locales/zh_TW/translation.json';
+import translationES from './locales/es/translation.json';
 
 import AppMenu from './components/AppMenu';
 import Dashboard from './components/dashboard/Dashboard';
@@ -39,6 +40,7 @@ import 'moment/locale/it';
 import 'moment/locale/ru';
 import 'moment/locale/fr';
 import 'moment/locale/zh-tw';
+import 'moment/locale/es';
 import moment from 'moment';
 import useLanguageCode, { getLanguageCode } from './hooks/useLanguageCode';
 import { Config } from './utils/Config';
@@ -70,6 +72,9 @@ const LANGUAGE_RESOURCES = {
   },
   zh_TW: {
     translation: translationZhTW
+  },
+  es: {
+    translation: translationES
   }
 };
 
